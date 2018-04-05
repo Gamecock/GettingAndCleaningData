@@ -1,13 +1,11 @@
-# GettingAndCleaningData #
+# GettingAndCleaningData
 Project
 
-##Preparation
-Download the data into the roking directory from:
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## Preparation
+* Download the [data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+* Unzip into the working directory
 
-Unzip data before running script.
-
-##Part One##
+## Part One
 First Step in the analysis was is to merge the datasets.  I created the function `clean()` to gather all the data and return a tibble.
 
 This was conducted in two parts, the test data and the train data following identical steps.
@@ -31,7 +29,7 @@ Then repeat for test.  Could do a loop, but hardly worth it for two iterations.
 Stack the two data frames using "studytype" as a meaningful name for the variable tracking which table it came out of, and save the result.
 `  bind_rows("test" = test, "train" = train, .id= "studytype")`
 
-##Part Two##
+## Part Two
  
   Group the combined data by subject and activity
   Summarize each column by the mean of the data for each group.

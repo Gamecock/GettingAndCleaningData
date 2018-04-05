@@ -1,9 +1,9 @@
 
-#New Tidy Data#
+# New Tidy Data
 
-## Arrange Data in Tidy Table##
+## Arrange Data in Tidy Table
 
-###Table Name###
+### Table Name
 body_accelleration.txt
 Description a combination of test and training data on smartphone accelleration movements from 30 people performing each of 6 activities.  Original raw data is from:
 
@@ -11,10 +11,10 @@ Description a combination of test and training data on smartphone accelleration 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-###Columns:###
+### Columns
 studytype   Was this data from the test or training dataset.
 subject     ID of subject (1 - 30)
-activity    name of activity
+activity     name of activity
 
 remaing variables are all test measurementsthat were defined as `mean()` or `std()`.  They are all <num>.  More detail in original document.
 
@@ -88,11 +88,12 @@ fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
 
-## Arrange Data in Tidy Summary Table##
+## Arrange Data in Tidy Summary Table
 
-###Table Name###
+### Table Name
 body_summary.txt
 Description a combination of test and training data on smartphone accelleration movements from 30 people performing each of 6 activities.  Data is summarized as the mean of each variable grouped by subject and activity.
 
-###Columns:###
+### Columns
 studytype   Was removed from this data set because it did not make sense when grouped and summarized.
+Remaining columns match the previous dataset.
