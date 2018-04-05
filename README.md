@@ -1,6 +1,11 @@
 # GettingAndCleaningData #
 Project
 
+##Preparation
+Download the data into the roking directory from:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Unzip data before running script.
 
 ##Part One##
 First Step in the analysis was is to merge the datasets.  I created the function `clean()` to gather all the data and return a tibble.
