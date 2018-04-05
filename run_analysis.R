@@ -33,7 +33,7 @@ clean <- function() {
   # Summarize#
   summary = combined %>% group_by(subject, activity) %>% select(-studytype)  %>% summarise_all(mean)
 
-  write.csv(combined, file = "body_accelleration.csv")
-  write.csv(summary, file = "body_summary.csv")
+  write.table(combined, file = "body_accelleration.txt", row.names = FALSE)
+  write.table(summary, file = "body_summary.txt", row.names = FALSE)
 }
 

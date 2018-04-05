@@ -4,7 +4,7 @@
 ## Arrange Data in Tidy Table##
 
 ###Table Name###
-body_accelleration.csv
+body_accelleration.txt
 Description a combination of test and training data on smartphone accelleration movements from 30 people performing each of 6 activities.  Original raw data is from:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
@@ -91,7 +91,7 @@ fBodyBodyGyroJerkMag-std()
 ## Arrange Data in Tidy Summary Table##
 
 ###Table Name###
-body_summary.csv
+body_summary.txt
 Description a combination of test and training data on smartphone accelleration movements from 30 people performing each of 6 activities.  Data is summarized as the mean of each variable grouped by subject and activity.
 
 ###Columns:###
